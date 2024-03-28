@@ -1,3 +1,7 @@
 matplotlib
 Pillow
 easyocr
+requests
+python-dotenv
+
+

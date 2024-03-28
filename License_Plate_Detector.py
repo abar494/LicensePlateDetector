@@ -5,6 +5,9 @@ from PIL import Image
 import easyocr
 from matplotlib import pyplot
 from matplotlib.patches import Rectangle
+import dotenv
+import requests
+import json
 
 # import our basic, light-weight png reader library
 import imageIO.png
@@ -336,11 +339,12 @@ def main():
     if not cropped_path.exists():
         cropped_path.mkdir(parents=True, exist_ok=True)
     
-    pure_filename = Path(input_filename).stem
-    cropped_filename = cropped_path / Path(pure_filename.replace(".png", "_cropped.png"))
+    pure_filename = Path(input_filename).stem + ".png"
+
+    cropped_filename = str(cropped_path) + "/" + str(pure_filename.replace(".png", "_cropped.png"))
     output_filename = output_path / Path(pure_filename.replace(".png", "_output.png"))
     if len(command_line_arguments) == 2:
-        cropped_filename = Path(command_line_arguments[1])
+        cropped_filename = str(command_line_arguments[1])
         output_filename = Path(command_line_arguments[1])
 
     # we read in the png file, and receive three pixel arrays for red, green and blue components, respectively
@@ -402,6 +406,9 @@ def main():
     
     im = Image.open(input_filename)
     cropped = im.crop((lc, tr, rc, br))
+
+    print(cropped_filename)
+
     cropped.save(cropped_filename)
     reader = easyocr.Reader(['en'], gpu = False)
     words = reader.readtext(cropped_filename, min_size = 100)
@@ -444,6 +451,32 @@ def main():
             print("   Note that " + str(license_plate_string) + ' is not a valid New Zealand License   \n     Plate as it does not contain three numbers at the end\n and at least two letters at the beginning. ')
         else:
             print("  Note that " + str(license_plate_string) + ' is not a valid New Zealand License   \n       Plate as it does not contain six characters.        ')
+       
+
+    #get API_KEY from .env file
+    API_KEY = dotenv.get_key('.env', 'API_KEY')
+
+    if API_KEY == None:
+        print("\nAPI_KEY not found in .env file")
+        print("No query will be made to the CARJAM API")
+    else:
+        test_license_plate = "APY771"
+        print("\nAPI Key is for test currently, will simulate a query to the CARJAM API")
+        print("Querying the CARJAM API for test license plate: " + test_license_plate)
+
+        query = "https://test.carjam.co.nz/api/car/"
+        query += "?plate=" + test_license_plate
+        query += "&key=" + API_KEY
+        query += "&translate=1&f=json"
+
+        response = requests.get(query)
+ 
+        with open("output.json", "w") as f:
+            json.dump(response.json(), f, indent=4)
+
+        # with open("output.json", "w") as f:
+        #     f.write(response.text)
+    
     print("                                                         ")
     print("***********************************************************")
         

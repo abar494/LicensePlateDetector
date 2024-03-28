@@ -1,0 +1,396 @@
+{
+    "idh": {
+        "plate": "APY771",
+        "query_type": "IDH",
+        "created": 1711661197,
+        "is_trade_plate": false,
+        "odometer_history": [
+            {
+                "odometer_date": 1252843200,
+                "odometer_reading": "184195",
+                "odometer_unit": "K",
+                "odometer_source": "IW",
+                "days": 1928,
+                "seconds": 166579200,
+                "kms": 79911,
+                "daily_usage": 41.447614107883815
+            },
+            {
+                "odometer_date": 1086264000,
+                "odometer_reading": "104284",
+                "odometer_unit": "K",
+                "odometer_source": "IW",
+                "days": 403,
+                "seconds": 34819200,
+                "kms": 20471,
+                "daily_usage": 50.79652605459057
+            },
+            {
+                "odometer_date": 1051444800,
+                "odometer_reading": "83813",
+                "odometer_unit": "K",
+                "odometer_source": "IW",
+                "days": 367,
+                "seconds": 31708800,
+                "kms": 16640,
+                "daily_usage": 45.34059945504087
+            },
+            {
+                "odometer_date": 1019736000,
+                "odometer_reading": "67173",
+                "odometer_unit": "",
+                "odometer_source": "IW",
+                "days": 217,
+                "seconds": 18748800,
+                "kms": 25429,
+                "daily_usage": 117.18433179723502
+            },
+            {
+                "odometer_date": 1000987200,
+                "odometer_reading": "41744",
+                "odometer_unit": "",
+                "odometer_source": "IW",
+                "days": 410,
+                "seconds": 35424000,
+                "kms": 41723,
+                "daily_usage": 101.76341463414634
+            },
+            {
+                "odometer_date": 965563200,
+                "odometer_reading": "21",
+                "odometer_unit": "",
+                "odometer_source": "IW",
+                "days": 0,
+                "seconds": 0,
+                "kms": 0
+            }
+        ],
+        "header": {
+            "not_found": "",
+            "not_assigned": false
+        },
+        "vehicle": {
+            "vehicle_system_id": "9536522",
+            "year_of_manufacture": "2000",
+            "make": "HOLDEN",
+            "model": "VECTRA",
+            "submodel": "2.0L GL HBACK AUTO",
+            "body_style": "HA",
+            "vehicle_type": "07",
+            "vin": "W0L0JBF68Y7051756",
+            "chassis": "",
+            "engine_no": "25032170",
+            "cc_rating": 1998,
+            "power": 100,
+            "main_colour": "Blue",
+            "second_colour": "Gold",
+            "reported_stolen": "N",
+            "country_of_origin": "GBR",
+            "assembly_type": "1",
+            "gross_vehicle_mass": 1337,
+            "reliable_odometer": "Y",
+            "maximum_rated_towed_mass_for_unbraked_trailer": 0,
+            "maximum_rated_towed_mass_for_braked_trailer": 0,
+            "tare_weight": 0,
+            "no_of_axles": 0,
+            "axle_type": "",
+            "front_axle_group_rating": 0,
+            "rear_axle_group_rating": 0,
+            "date_of_first_registration_in_nz": 964958400,
+            "cause_of_latest_registration": "N",
+            "subject_to_wof": "Y",
+            "subject_to_wof_inspection": "Y",
+            "subject_to_cof": "N",
+            "subject_to_cof_inspection": "N",
+            "subject_to_ruc": "N",
+            "date_of_last_registration": 964958400,
+            "imported_damaged": "N",
+            "registered_overseas": "N",
+            "number_of_owners": null,
+            "no_of_seats": 5,
+            "fuel_type": "01",
+            "alternative_fuel_type": "",
+            "inspection_agent": "",
+            "wheelbase": 0,
+            "vehicle_usages": [
+                {
+                    "vechile_usage_code": "01",
+                    "vehicle_usage_code": "01",
+                    "effective_date": 0
+                }
+            ],
+            "vehicle_usage": "01",
+            "registration_status": "A",
+            "cancellation_reason_code": "",
+            "previous_country_of_registration": "",
+            "year_of_first_registration_overseas": 0,
+            "month_of_first_registration_overseas": 0,
+            "day_of_first_registration_overseas": 0,
+            "cancellation_date_of_registration": false,
+            "plate": "APY771",
+            "replacement_plate": "",
+            "plate_type": "ST",
+            "plates": [
+                {
+                    "plate_status": "Active",
+                    "plate_type": "ST",
+                    "registration_plate": "APY771",
+                    "effective_date": 1019736000
+                },
+                {
+                    "plate_status": "Inactive",
+                    "plate_type": "",
+                    "registration_plate": "LEDERS",
+                    "effective_date": 977050800
+                },
+                {
+                    "plate_status": "Inactive",
+                    "plate_type": "",
+                    "registration_plate": "ZJ1187",
+                    "effective_date": 964958400
+                }
+            ],
+            "date_of_latest_wof_inspection": 1252843200,
+            "result_of_latest_wof_inspection": "P",
+            "expiry_date_of_last_successful_wof": 1268478000,
+            "date_of_latest_cof_inspection": "",
+            "result_of_latest_cof_inspection": "",
+            "expiry_date_of_last_successful_cof": "",
+            "inspections": [
+                {
+                    "latest": "Y",
+                    "type": "WOF",
+                    "date": 1252843200,
+                    "result": "P",
+                    "expiry_date": 1268478000,
+                    "btn": "227789995"
+                }
+            ],
+            "licences": [
+                {
+                    "number": "227242805",
+                    "licence_type": "L",
+                    "continuous_licence": "Y",
+                    "expiry_date": 1267873200,
+                    "issue_datetime": 1252843200
+                }
+            ],
+            "continuous_licence": "Y",
+            "licence_type": "L",
+            "licence_expiry_date": 1267873200,
+            "date_of_issue_for_latest_licence": 1252843200,
+            "time_of_issue_for_latest_licence": "0000",
+            "current_vehicle_odometer_unit": "K",
+            "inconsistent_odometer": "",
+            "latest_odometer_reading": "184195",
+            "latest_daily_usage": 41.447614107883815,
+            "estimated_current_odometer_reading": 404200,
+            "date_of_odometer_reading": 1252843200,
+            "latest_odometer_reading_unit": "K",
+            "latest_odometer_reading_source_code": "IW",
+            "age": 24,
+            "average_fleet_mileage": 18000,
+            "annual_usage": 20218,
+            "usage_level": 1.1232222222222221,
+            "usage_level_pc": 12.322222222222212,
+            "reported_stolen_nzta": "N"
+        }
+    },
+    "hidh": {
+        "plate": "APY771",
+        "query_type": "IDH",
+        "created": 1711661197,
+        "is_trade_plate": false,
+        "odometer_history": [
+            {
+                "odometer_date": "2009-09-14",
+                "odometer_reading": "184,195",
+                "odometer_unit": "Km",
+                "odometer_source": "Warrant of Fitness Inspection",
+                "days": 1928,
+                "seconds": 166579200,
+                "kms": 79911,
+                "daily_usage": 41.447614107883815
+            },
+            {
+                "odometer_date": "2004-06-04",
+                "odometer_reading": "104,284",
+                "odometer_unit": "Km",
+                "odometer_source": "Warrant of Fitness Inspection",
+                "days": 403,
+                "seconds": 34819200,
+                "kms": 20471,
+                "daily_usage": 50.79652605459057
+            },
+            {
+                "odometer_date": "2003-04-28",
+                "odometer_reading": "83,813",
+                "odometer_unit": "Km",
+                "odometer_source": "Warrant of Fitness Inspection",
+                "days": 367,
+                "seconds": 31708800,
+                "kms": 16640,
+                "daily_usage": 45.34059945504087
+            },
+            {
+                "odometer_date": "2002-04-26",
+                "odometer_reading": "67,173",
+                "odometer_unit": "",
+                "odometer_source": "Warrant of Fitness Inspection",
+                "days": 217,
+                "seconds": 18748800,
+                "kms": 25429,
+                "daily_usage": 117.18433179723502
+            },
+            {
+                "odometer_date": "2001-09-21",
+                "odometer_reading": "41,744",
+                "odometer_unit": "",
+                "odometer_source": "Warrant of Fitness Inspection",
+                "days": 410,
+                "seconds": 35424000,
+                "kms": 41723,
+                "daily_usage": 101.76341463414634
+            },
+            {
+                "odometer_date": "2000-08-07",
+                "odometer_reading": "21",
+                "odometer_unit": "",
+                "odometer_source": "Warrant of Fitness Inspection",
+                "days": 0,
+                "seconds": 0,
+                "kms": 0
+            }
+        ],
+        "header": {
+            "not_found": "",
+            "not_assigned": false
+        },
+        "vehicle": {
+            "vehicle_system_id": "9536522",
+            "year_of_manufacture": "2000",
+            "make": "HOLDEN",
+            "model": "VECTRA",
+            "submodel": "2.0L GL HBACK AUTO",
+            "body_style": "Hatchback",
+            "vehicle_type": "Passenger Car/Van",
+            "vin": "W0L0JBF68Y7051756",
+            "chassis": "",
+            "engine_no": "25032170",
+            "cc_rating": "1,998cc",
+            "power": "100kW",
+            "main_colour": "Blue",
+            "second_colour": "Gold",
+            "reported_stolen": "No",
+            "country_of_origin": "United Kingdom",
+            "assembly_type": "Imported Built-Up",
+            "gross_vehicle_mass": "1,337kg",
+            "reliable_odometer": "Yes",
+            "maximum_rated_towed_mass_for_unbraked_trailer": "",
+            "maximum_rated_towed_mass_for_braked_trailer": "",
+            "tare_weight": "",
+            "no_of_axles": 0,
+            "axle_type": "",
+            "front_axle_group_rating": "0",
+            "rear_axle_group_rating": "0",
+            "date_of_first_registration_in_nz": "2000-07-31",
+            "cause_of_latest_registration": "New",
+            "subject_to_wof": "Yes",
+            "subject_to_wof_inspection": "Yes",
+            "subject_to_cof": "No",
+            "subject_to_cof_inspection": "No",
+            "subject_to_ruc": "No",
+            "date_of_last_registration": "2000-07-31",
+            "imported_damaged": "No",
+            "registered_overseas": "No",
+            "number_of_owners": null,
+            "no_of_seats": 5,
+            "fuel_type": "Petrol",
+            "alternative_fuel_type": "",
+            "inspection_agent": "",
+            "wheelbase": "0",
+            "vehicle_usages": [
+                {
+                    "vechile_usage_code": "01",
+                    "vehicle_usage_code": "01",
+                    "effective_date": 0
+                }
+            ],
+            "vehicle_usage": "Private Passenger",
+            "registration_status": "Active",
+            "cancellation_reason_code": "",
+            "previous_country_of_registration": "",
+            "year_of_first_registration_overseas": 0,
+            "month_of_first_registration_overseas": 0,
+            "day_of_first_registration_overseas": 0,
+            "cancellation_date_of_registration": "",
+            "plate": "APY771",
+            "replacement_plate": "",
+            "plate_type": "Standard",
+            "plates": [
+                {
+                    "plate_status": "Active",
+                    "plate_type": "ST",
+                    "registration_plate": "APY771",
+                    "effective_date": "2002-04-26"
+                },
+                {
+                    "plate_status": "Inactive",
+                    "plate_type": "",
+                    "registration_plate": "LEDERS",
+                    "effective_date": "2000-12-18"
+                },
+                {
+                    "plate_status": "Inactive",
+                    "plate_type": "",
+                    "registration_plate": "ZJ1187",
+                    "effective_date": "2000-07-31"
+                }
+            ],
+            "date_of_latest_wof_inspection": "2009-09-14",
+            "result_of_latest_wof_inspection": "Pass",
+            "expiry_date_of_last_successful_wof": "2010-03-14",
+            "date_of_latest_cof_inspection": "",
+            "result_of_latest_cof_inspection": "",
+            "expiry_date_of_last_successful_cof": "",
+            "inspections": [
+                {
+                    "latest": "Y",
+                    "type": "WOF",
+                    "date": 1252843200,
+                    "result": "P",
+                    "expiry_date": 1268478000,
+                    "btn": "227789995"
+                }
+            ],
+            "licences": [
+                {
+                    "number": "227242805",
+                    "licence_type": "L",
+                    "continuous_licence": "Y",
+                    "expiry_date": 1267873200,
+                    "issue_datetime": 1252843200
+                }
+            ],
+            "continuous_licence": "Yes",
+            "licence_type": "Normal",
+            "licence_expiry_date": "2010-03-07",
+            "date_of_issue_for_latest_licence": "2009-09-14",
+            "time_of_issue_for_latest_licence": "12:00am",
+            "current_vehicle_odometer_unit": "Km",
+            "inconsistent_odometer": "",
+            "latest_odometer_reading": "184,195",
+            "latest_daily_usage": 41.447614107883815,
+            "estimated_current_odometer_reading": 404200,
+            "date_of_odometer_reading": "2009-09-14",
+            "latest_odometer_reading_unit": "Km",
+            "latest_odometer_reading_source_code": "Warrant of Fitness Inspection",
+            "age": 24,
+            "average_fleet_mileage": 18000,
+            "annual_usage": 20218,
+            "usage_level": 1.1232222222222221,
+            "usage_level_pc": 12.322222222222212,
+            "reported_stolen_nzta": "N"
+        }
+    }
+}
